@@ -17,31 +17,23 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "browser": "src/main.ts",
-            "tsConfig": "tsconfig.app.json",
+           "browser": "src/main.ts",
+           "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              },
-              {
-                "glob": "**/*",
-                "input": "src/assets",
-                "output": "assets"
-              }
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "security": {
-              "allowedHosts": []
+            {
+             "glob": "**/*",
+             "input": "public"
             },
-            "ssr": {
-              "entry": "src/server.ts"
-            }
-          },
+            {
+             "glob": "**/*",
+             "input": "src/assets",
+              "output": "assets"
+              }
+              ],
+              "styles": [
+               "src/styles.css"
+                ]
+                },
           "configurations": {
             "production": {
               "budgets": [

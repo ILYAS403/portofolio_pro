@@ -10,7 +10,7 @@
 }
 
 .section-header span {
-  color: #ff6657;
+  color: #38BDF8;
   font-size: 15px;
 }
 
@@ -63,13 +63,13 @@
   width: 20px;
   height: 20px;
 
-  background-color: #ff6657;
+  background-color: #38BDF8;
 
   border-radius: 50%;
 
   border: 4px solid #101e27;
 
-  box-shadow: 0 0 0 2px #ff6657;
+  box-shadow: 0 0 0 2px #38BDF8;
 }
 
 /* Contenu */
@@ -87,7 +87,7 @@
 
 .timeline-content:hover {
   transform: translateX(5px);
-  border-color: #ff6657;
+  border-color: #38BDF8;
 }
 
 /* Date */
@@ -95,7 +95,7 @@
 .date {
   display: inline-block;
 
-  color: #ff6657;
+  color: #38BDF8;
 
   font-size: 13px;
   font-weight: 600;

@@ -10,7 +10,7 @@
 }
 
 .section-header span {
-  color: #ff6657;
+  color: #38BDF8;
   font-size: 15px;
 }
 
@@ -48,7 +48,7 @@
 
 .project-card:hover {
   transform: translateY(-5px);
-  border-color: #ff6657;
+  border-color: #38BDF8;
 }
 
 /* Inversion image / texte */
@@ -94,7 +94,7 @@
 }
 
 .project-number {
-  color: #ff6657;
+  color: #38BDF8;
 
   font-size: 13px;
   font-weight: 600;
@@ -154,5 +154,5 @@
 }
 
 .project-link:hover {
-  color: #ff6657;
+  color: #38BDF8;
 }

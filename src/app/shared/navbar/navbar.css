@@ -15,7 +15,7 @@
 /* Logo */
 
 .logo {
-  color: rgb(14, 180, 113);
+  color: #38BDF8;
   text-decoration: none;
 
   font-size: 22px;
@@ -47,7 +47,7 @@
 }
 
 .nav-links a:hover {
-  color: #ff6657;
+  color: #38BDF8;
 }
 
 /* Ligne sous les liens */
@@ -62,7 +62,7 @@
   width: 0;
   height: 2px;
 
-  background-color: #ff6657;
+  background-color: #38BDF8;
 
   transition: width 0.3s ease;
 }

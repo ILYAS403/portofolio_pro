@@ -13,7 +13,6 @@
   color: white;
 }
 
-
 .name {
   font-size: 25px;
   margin: 0 0 10px;
@@ -38,23 +37,23 @@ h1 {
 }
 
 .primary {
-  background: #ff6657;
+  background: #38BDF8;
   color: white;
   border-radius: 30px;
+}
 
-  &:hover {
-    background: #ff4f3e;
-  }
+.primary:hover {
+  background: #38BDF8;
 }
 
 .secondary {
-  border: 1px solid #ff6657;
+  border: 1px solid #38BDF8;
   color: white;
   border-radius: 30px;
+}
 
-  &:hover {
-    background: #ff6657;
-  }
+.secondary:hover {
+  background: #38BDF8;
 }
 
 .hero-image {
@@ -70,20 +69,17 @@ h1 {
   position: absolute;
   width: 320px;
   height: 320px;
-  border: 15px solid #ff6657;
   border-radius: 50%;
+  z-index: 1;
 }
 
 .hero-image img {
   position: absolute;
-
   width: 320px;
   height: 320px;
-
   border-radius: 50%;
-
   object-fit: cover;
   object-position: center;
-
   z-index: 2;
+  display: block;
 }

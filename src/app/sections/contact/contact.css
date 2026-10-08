@@ -22,15 +22,10 @@
   margin-bottom: 25px;
 }
 
-.contact-label span {
-  width: 42px;
-  height: 2px;
-  background-color: #36d399;
-}
 
 .contact-label p {
   margin: 0;
-  color: #36d399;
+  color: #38BDF8;
   font-size: 15px;
   letter-spacing: 3px;
   font-weight: 500;
